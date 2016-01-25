@@ -2,7 +2,7 @@
   "name": "Mission 1 San Francisco International Airport &#9983",
   "level": "medium",
   "radio": "San Francisco",
-  "icao": "KSFO",
+  "icao": "M_01",
   "iata": "SFO",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
