@@ -110,7 +110,7 @@
       ["ups", 2]
     ],
     "sids": {
-      "OFFSHORE": [SENZY", "WAMMY", "SEGUL"],
+      "OFFSHORE": ["SENZY", "WAMMY", "SEGUL"],
       "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
       "QUIET": ["SASLY", "REBAS", "SASSU"],
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
