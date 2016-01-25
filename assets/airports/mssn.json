@@ -3,7 +3,7 @@
   "level": "medium",
   "radio": "Mission 01 KSFO",
   "icao": "mssn",
-  "iata": "m001",
+  "iata": "mssn",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
   "position": ["N37.6195", "W122.3738333"],
