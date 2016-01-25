@@ -25,6 +25,10 @@
 
 #loading .version {
   position: absolute;
+  color: rgb(35,54,48);
+  top: 235px;
+  left: 46%;
+  z-index: 1501;
   top: 0;
   right: 0;
   width: auto;
