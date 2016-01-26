@@ -1,11 +1,28 @@
 <!doctype html>
 <html>
   <head>
-    <title>Air Traffic Control</title>
+    <title>Air Traffic Control with Speech Recognition Test</title>
     <link rel="stylesheet" href="assets/style/main.css" />
     <script src="assets/scripts/jquery.min.js"></script>
     <script src="assets/scripts/fiber.min.js"></script>
     <script src="assets/scripts/modules.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
+<script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+  var commands = {
+    'show tps report': function() {
+      $('#tpsreport').animate({bottom: '-100px'});
+    }
+  };
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start();
+}
+</script>
 
     <meta content="assets/images/thumb.png" property="og:image"/>
     <meta content="Air Traffic Control simulator" property="og:title"/>
