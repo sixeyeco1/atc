@@ -35,7 +35,7 @@ a different strip colors and no border color.
 Original code:
   border-color: rgba(224, 128, 128, 0.8);
   */
-  background-color: rgba(230, 230,  175, .5);
+  background-color: rgba(230, 230,  175, .2);
   
 }
 
@@ -46,7 +46,7 @@ a different strip colors and no border color.
 Original code:
   border-color: rgba(128, 255, 255, 0.8);
   */
-  background-color: rgba(121, 195, 94, .5);
+  background-color: rgba(121, 195, 94, .2);
   
 }
 
