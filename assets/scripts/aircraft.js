@@ -1583,7 +1583,7 @@ var Aircraft=Fiber.extend(function() {
     },
     showStrip: function() {
       this.html.detach();
-      $("#strips").append(this.html);
+      $("#strips").prepend(this.html);
       this.html.show(600);
     },
     updateTarget: function() {
