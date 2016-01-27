@@ -1,13 +1,13 @@
 
 .strip {
-  background-color: rgba(40, 40, 40, 1.0);
+  background-color: rgba(255, 255, 255, 0.0);
 
   border-left: 4px solid transparent;
 
   list-style-type: none;
   position: relative;
-  padding: 0px 0px;
-  margin-bottom: 3px;
+  padding: 3px 10px;
+  margin-bottom: 5px;
   margin-left: 0;
   margin-right: -3px;
 
@@ -15,7 +15,7 @@
 }
 
 .strip:hover {
-  background-color: rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
 
@@ -29,25 +29,11 @@
 }
 
 .strip.arrival {
-
-/* Differentiating departures and arrivals with 
-a different strip colors and no border color.
-Original code:
   border-color: rgba(224, 128, 128, 0.8);
-  */
-  background-color: rgba(230, 230,  175, 0.2);
-  
 }
 
 .strip.departure {
-
-/* Differentiating departures and arrivals with 
-a different strip colors and no border color.
-Original code:
-  border-color: rgba(50, 100, 120, 0.8);
-  */
-  background-color: rgba(50, 50, 50, 1.0);
-  
+  border-color: rgba(128, 255, 255, 0.8);
 }
 
 .strip .aircraft {
