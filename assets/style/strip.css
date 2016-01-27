@@ -31,13 +31,13 @@
 .strip.arrival {
 
 /* border-color: rgba(224, 128, 128, 0.8); */
-  background-color: rgba(35, 35, 35, 1.0);
-  
+  background-color: rgba(17, 17, 17, 1.0);  
+
 }
 
 .strip.departure {
 /* border-color: rgba(128, 255, 255, 0.8); */
-background-color: rgba(17, 17, 17, 1.0);  
+  background-color: rgba(35, 35, 35, 1.0);
 
 }
 
