@@ -16,18 +16,11 @@
 
 .strip:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 2px 2px 2px 2px;
-  -moz-border-radius: 2px 2px 2px 2px;
-  -webkit-border-radius: 2px 2px 2px 2px;
   border: 1px solid #fff;
 }
 
-
 .strip.active {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 2px 2px 2px 2px;
-  -moz-border-radius: 2px 2px 2px 2px;
-  -webkit-border-radius: 2px 2px 2px 2px;
   border: 1px solid #fff;
 
   margin-left: -5px;
