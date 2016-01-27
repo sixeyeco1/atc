@@ -31,14 +31,14 @@
 .strip.arrival {
 
 /* border-color: rgba(224, 128, 128, 0.8); */
-  background-color: rgba(50, 50, 50, 1.0);
-
+background-color: rgba(80, 90, 100, 1.0);  
+  
 }
 
 .strip.departure {
 /* border-color: rgba(128, 255, 255, 0.8); */
-  background-color: rgba(30, 30, 30, 1.0);
-  
+  background-color: rgba(50, 50, 50, 1.0);
+
 }
 
 .strip .aircraft {
