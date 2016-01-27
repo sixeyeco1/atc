@@ -14,8 +14,11 @@
   transition: margin-left 0.1s ease, margin-right 0.1s ease, background-color 0.05s ease, box-shadow 0.05s ease;
 }
 
-.strip:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  .strip:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(10,171,15,1);
+  -moz-box-shadow: inset 0px 0px 15px 0px rgba(10,171,15,1);
+  box-shadow: inset 0px 0px 15px 0px rgba(10,171,15,1);  
   cursor: pointer;
 
 }
