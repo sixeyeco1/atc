@@ -14,25 +14,19 @@
   transition: margin-left 0.1s ease, margin-right 0.1s ease, background-color 0.05s ease, box-shadow 0.05s ease;
 }
 
-  .strip:hover {
-  background-color: rgba(0, 255, 255, 0.1);
-  -webkit-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
-  -moz-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
-  box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
+.strip:hover {
+  background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  margin-left: -2px;
-  margin-right: 2px;}
-
 }
 
 .strip.active {
   background-color: rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
-  -moz-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
-  box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
-  margin-left: -2px;
-  margin-right: 2px;}
-  
+
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 1);
+
+  margin-left: -5px;
+  margin-right: 5px; 
+}
 
 .strip.arrival {
 
