@@ -46,7 +46,7 @@ a different strip colors and no border color.
 Original code:
   border-color: rgba(50, 100, 120, 0.8);
   */
-  background-color: rgba(50, 100, 120, 0.2);
+  background-color: rgba(50, 100, 120, 0.0);
   
 }
 
