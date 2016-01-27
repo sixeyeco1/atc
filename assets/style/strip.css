@@ -16,9 +16,9 @@
 
   .strip:hover {
   background-color: rgba(0, 255, 255, 0.1);
-  -webkit-box-shadow: inset 0px 0px 15px -1px rgba(10,171,15,1);
-  -moz-box-shadow: inset 0px 0px 15px -1px rgba(10,171,15,1);
-  box-shadow: inset 0px 0px 15px -1px rgba(10,171,15,1);  
+  -webkit-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
+  -moz-box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
+  box-shadow: inset 0px 0px 8px -1px rgba(10,171,15,1);
   cursor: pointer;
 
 }
