@@ -1,6 +1,6 @@
 
 .strip {
-  background-color: rgba(40, 40, 40, 50.0);
+  background-color: rgba(40, 40, 40, 0.0);
 
   border-left: 4px solid transparent;
 
@@ -29,7 +29,14 @@
 }
 
 .strip.arrival {
+
+/* Differentiating departures and arrivals with 
+a different strip colors and no border color.
+Original code:
   border-color: rgba(224, 128, 128, 0.8);
+  */
+  background-color: rgba(40, 40, 40, 1.0);
+  
 }
 
 .strip.departure {
