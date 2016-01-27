@@ -6,8 +6,8 @@
 
   list-style-type: none;
   position: relative;
-  padding: 3px 10px;
-  margin-bottom: 5px;
+  padding: 0px 0px;
+  margin-bottom: 2px;
   margin-left: 0;
   margin-right: -3px;
 
@@ -29,11 +29,16 @@
 }
 
 .strip.arrival {
-  border-color: rgba(224, 128, 128, 0.8);
+
+/* border-color: rgba(224, 128, 128, 0.8); */
+  background-color: rgba(50, 50, 50, 1.0);
+
 }
 
 .strip.departure {
-  border-color: rgba(128, 255, 255, 0.8);
+/* border-color: rgba(128, 255, 255, 0.8); */
+  background-color: rgba(80, 80, 80, 1.0);
+  
 }
 
 .strip .aircraft {
