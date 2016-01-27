@@ -664,7 +664,7 @@ var Aircraft=Fiber.extend(function() {
         }
       }
 
-      $("#strips").append(this.html);
+      $("#strips").prepend(this.html);
 
       this.html.click(this, function(e) {
         input_select(e.data.getCallsign());
