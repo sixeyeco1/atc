@@ -14,7 +14,7 @@ function canvas_init_pre() {
   prop.canvas.resize=true;
   prop.canvas.size={ // all canvases are the same size
     height:480,
-    width:640
+    width:640c 100 sp 250 w 28
   };
 
   prop.canvas.last = time();
@@ -283,8 +283,8 @@ function canvas_draw_sids(cc) {
   if (!prop.canvas.draw_sids) return;
 
   var departure_colour = "rgba(128, 255, 255, 0.6)";
-  //   cc.strokeStyle = departure_colour;
-  //   cc.fillStyle = departure_colour;
+  cc.strokeStyle = departure_colour;
+  cc.fillStyle = departure_colour;
   cc.setLineDash([1,10]);
   cc.font = "italic 14px monoOne, monospace";
   var airport = airport_get();
