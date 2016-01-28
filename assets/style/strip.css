@@ -24,12 +24,18 @@
 
 .strip.active {
 
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
-  -moz-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
-  box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
+/*  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
+/*  -moz-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
+/*  box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
+*/
 
-  margin-left: -5px;
-  margin-right: 5px; */
+.element {
+  transform: scale(.95, 1);
+
+/*  margin-left: -5px;
+    margin-right: 5px; 
+  */
+  
 }
 
 .strip.arrival {
