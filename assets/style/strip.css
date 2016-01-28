@@ -43,13 +43,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .strip.departure {
 background: rgba(0,0,0,1);
-background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(130,255,255,1) 64%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(62%, rgba(0,0,0,1)), color-stop(64%, rgba(130,255,255,1)), color-stop(66%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(130,255,255,1) 64%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
-background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(130,255,255,1) 64%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
-background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(130,255,255,1) 64%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
-background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(130,255,255,1) 64%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(15,255,255,1) 63%, rgba(49,99,99,1) 69%, rgba(49,99,99,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(62%, rgba(0,0,0,1)), color-stop(63%, rgba(15,255,255,1)), color-stop(69%, rgba(49,99,99,1)), color-stop(100%, rgba(49,99,99,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(15,255,255,1) 63%, rgba(49,99,99,1) 69%, rgba(49,99,99,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(15,255,255,1) 63%, rgba(49,99,99,1) 69%, rgba(49,99,99,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(15,255,255,1) 63%, rgba(49,99,99,1) 69%, rgba(49,99,99,1) 100%);
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(15,255,255,1) 63%, rgba(49,99,99,1) 69%, rgba(49,99,99,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#316363', GradientType=1 );
 }
 
 .strip .aircraft {
