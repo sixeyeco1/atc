@@ -65,12 +65,16 @@
   font-style: italic;
 }
 
+.strip .waiting {
+  color: #fff
+}
+
 .strip .taxi {
 /*  color: #f8e;*/
 }
 
 .strip .waiting {
-/*  color: #7f6;*/
+  color: #7f6;  
 }
 
 .strip .altitude {
