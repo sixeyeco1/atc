@@ -14,7 +14,7 @@ function canvas_init_pre() {
   prop.canvas.resize=true;
   prop.canvas.size={ // all canvases are the same size
     height:480,
-    width:640c 100 sp 250 w 28
+    width:640
   };
 
   prop.canvas.last = time();
