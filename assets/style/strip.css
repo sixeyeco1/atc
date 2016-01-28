@@ -16,15 +16,15 @@
 
 .strip:hover {
 
-  -webkit-box-shadow: inset 0px 0px 8px 0px rgba(43,255,0,1);
-  -moz-box-shadow: inset 0px 0px 8px 0px rgba(43,255,0,1);
-  box-shadow: inset 0px 0px 8px 0px rgba(43,255,0,1);
+  -webkit-box-shadow: inset 0px 0px 6px 0px rgba(43,255,0,1);
+  -moz-box-shadow: inset 0px 0px 6px 0px rgba(43,255,0,1);
+  box-shadow: inset 0px 0px 6px 0px rgba(43,255,0,1);
   cursor: pointer;
 }
 
 .strip.active {
 
-  transform: scale(.95, 1);
+  transform: scale(.97, 1);
 
 /*  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
 /*  -moz-box-shadow: inset 0px 0px 10px 0px rgba(255,255,201,1);
