@@ -71,6 +71,8 @@ color: #f8e;
 
 .strip .waiting {
   color: #7f6;  
+  background-color: rgba(00, 57, 00, 1.0);
+
 }
 
 .strip .altitude {
