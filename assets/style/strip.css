@@ -65,12 +65,8 @@
   font-style: italic;
 }
 
-.strip .waiting {
-  color: #fff
-}
-
 .strip .taxi {
-/*  color: #f8e;*/
+color: #f8e; 
 }
 
 .strip .waiting {
