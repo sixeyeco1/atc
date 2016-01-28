@@ -283,8 +283,8 @@ function canvas_draw_sids(cc) {
   if (!prop.canvas.draw_sids) return;
 
   var departure_colour = "rgba(128, 255, 255, 0.6)";
-  cc.strokeStyle = departure_colour;
-  cc.fillStyle = departure_colour;
+  //   cc.strokeStyle = departure_colour;
+  //   cc.fillStyle = departure_colour;
   cc.setLineDash([1,10]);
   cc.font = "italic 14px monoOne, monospace";
   var airport = airport_get();
@@ -812,7 +812,7 @@ function canvas_draw_compass(cc) {
   cc.lineWidth = 4;
 
   // Outer circle
-  cc.fillStyle = "rgba(0, 0, 0, 0.7)";
+  cc.fillStyle = "rgba(120, 140, 130, 0.7)";
   cc.beginPath();
   cc.arc(0, 0, size2, 0, Math.PI*2);
   cc.fill();
