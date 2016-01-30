@@ -120,7 +120,7 @@
     ],
     "type": "random",
     "offset": 0,
-    "frequency": 38
+    "frequency": 72
   },
   "arrivals": [
     {
@@ -136,7 +136,7 @@
       ],
       "type": "wave",
       "offset": 0,
-      "frequency": 12,
+      "frequency": 25,
       "altitude":  10000
     },
     {
@@ -150,7 +150,7 @@
       ],
       "type": "random",
       "offset": 5,
-      "frequency": 6,
+      "frequency": 12,
       "altitude":  10000
     },
     {
@@ -165,7 +165,7 @@
       ],
       "type": "wave",
       "offset": 3,
-      "frequency": 12,
+      "frequency": 24,
       "altitude":  10000
     },
     {
@@ -178,7 +178,7 @@
         ["fastga", 1]
       ],
       "type": "random",
-      "frequency": 6,
+      "frequency": 12,
       "altitude":  10000
     }
   ]
