@@ -1007,6 +1007,9 @@ function airport_init() {
   airport_load("ltba");
   airport_load("vhhh");
 
+  //  MISSIONS
+  airport_load("Mision-01");
+  
 }
 
 function airport_ready() {
