@@ -1,9 +1,9 @@
 {
   "name": "Mission 1 (KSFO)",
   "level": "hard",
-  "radio": "Mission 01 KSFO",
+  "radio": "msfo",
   "icao": "msfo",
-  "iata": "Mision-01",
+  "iata": "msfo",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
   "position": ["N37.6195", "W122.3738333"],
