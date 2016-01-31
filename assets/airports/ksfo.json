@@ -110,7 +110,7 @@
       ["ups", 2]
     ],
     "sids": {
-      "OFFSHORE": ["SENZY", "WAMMY", "SEGUL"],
+      "OFFSHORE": ["SEPDY", "SENZY", "WAMMY", "SEGUL"],
       "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
       "QUIET": ["SASLY", "REBAS", "SASSU"],
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
@@ -120,7 +120,7 @@
     ],
     "type": "random",
     "offset": 0,
-    "frequency": 72
+    "frequency": 38
   },
   "arrivals": [
     {
@@ -136,7 +136,7 @@
       ],
       "type": "wave",
       "offset": 0,
-      "frequency": 25,
+      "frequency": 12,
       "altitude":  10000
     },
     {
@@ -150,7 +150,7 @@
       ],
       "type": "random",
       "offset": 5,
-      "frequency": 12,
+      "frequency": 6,
       "altitude":  10000
     },
     {
@@ -165,7 +165,7 @@
       ],
       "type": "wave",
       "offset": 3,
-      "frequency": 24,
+      "frequency": 12,
       "altitude":  10000
     },
     {
@@ -178,7 +178,7 @@
         ["fastga", 1]
       ],
       "type": "random",
-      "frequency": 12,
+      "frequency": 6,
       "altitude":  10000
     }
   ]
