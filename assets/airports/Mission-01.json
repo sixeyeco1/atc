@@ -1,9 +1,9 @@
 {
-  "name": "Mission 1 KSFO &#9983",
-  "level": "medium",
+  "name": "Mission 1 (KSFO)",
+  "level": "hard",
   "radio": "Mission 01 KSFO",
-  "icao": "mssn",
-  "iata": "mssn",
+  "icao": "Mision-01",
+  "iata": "Mision-01",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
   "position": ["N37.6195", "W122.3738333"],
@@ -114,6 +114,11 @@
       "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
       "QUIET": ["SASLY", "REBAS", "SASSU"],
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
+      "O": ["SENZY", "WAMMY", "SEGUL"],
+      "E": ["SENZY", "ZUPAX", "EUGEN"],
+      "Q": ["SASLY", "REBAS", "SASSU"],
+      "S": ["SASLY", "REBAS", "SASSU"],
+      "M": ["WESLA", "STINS", "MOLEN"]
     },
     "destinations": [
       290, 180, 160, 345
