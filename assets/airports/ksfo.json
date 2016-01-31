@@ -114,6 +114,11 @@
       "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
       "QUIET": ["SASLY", "REBAS", "SASSU"],
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
+      "O": ["SENZY", "WAMMY", "SEGUL"],
+      "E": ["SENZY", "ZUPAX", "EUGEN"],
+      "Q": ["SASLY", "REBAS", "SASSU"],
+      "S": ["SASLY", "REBAS", "SASSU"],
+      "M": ["WESLA", "STINS", "MOLEN"]
     },
     "destinations": [
       290, 180, 160, 345
