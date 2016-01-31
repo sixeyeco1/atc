@@ -1,7 +1,7 @@
 {
   "name": "Mission 1 (KSFO)",
   "level": "hard",
-  "radio": "msfo",
+  "radio": "San Franscisco",
   "icao": "MSFO",
   "iata": "msfo",
   "magnetic_north": 13.7,
