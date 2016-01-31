@@ -2,7 +2,7 @@
   "name": "Mission 1 (KSFO)",
   "level": "hard",
   "radio": "Mission 01 KSFO",
-  "icao": "m001",
+  "icao": "msfo",
   "iata": "Mision-01",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
