@@ -154,6 +154,7 @@ function ui_complete() {
   var symbol = $("<span class='symbol'>" + "&#9983" + "</span>");
   $("#airport-list-notes").append(symbol);
   var notes = $("<span class='words'>" + "work in progress" + "</span>");
+  $("#airport-list-notes").append(notes);
   var symbol = $("<span class='symbol'>" + "&#9983" + "</span>");
   $("#airport-list-notes").append(symbol);
   var notes = $("<span class='words'>" + "work in progress" + "</span>");
