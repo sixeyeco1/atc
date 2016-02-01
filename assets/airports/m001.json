@@ -1,8 +1,8 @@
 {
   "name": "Sim: KSFO reopened after a terror hoax. &#9193;",
-  "level": "hard",
+  "level": "scene",
   "radio": "San Francisco",
-  "icao": "scene",
+  "icao": "M001",
   "iata": "SFO",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
