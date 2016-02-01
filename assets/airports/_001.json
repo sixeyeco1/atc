@@ -1,8 +1,8 @@
 {
-  "name": "KSFO is reopened after a terror hoax. &#9888;",
+  "name": "Airport reopened following a terror hoax. &#9888;",
   "level": "expert",
   "radio": "San Francisco",
-  "icao": "M001",
+  "icao": "_001",
   "iata": "SFO",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
