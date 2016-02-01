@@ -157,7 +157,7 @@ function ui_complete() {
   $("#airport-list-notes").append(notes);
   var symbol = $("<span class='symbol'>" + "&#9888" + "</span>");
   $("#airport-list-notes").append(symbol);
-  var notes = $("<span class='words'>" + "work in progress" + "</span>");
+  var notes = $("<span class='words'>" + "hazard scenario" + "</span>");
   $("#airport-list-notes").append(notes);
 }
 
