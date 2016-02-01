@@ -978,6 +978,7 @@ function airport_init() {
 
   //  MISSIONS
   airport_load("m001");
+  airport_load("m002");
 
   // DEBUG AIRPORTS
   airport_load("kdbg");
