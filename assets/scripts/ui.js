@@ -108,7 +108,6 @@ function ui_init() {
 function ui_complete() {
   var airports = [];
   var icon = '&#9992;';
-  var icon2 = 'https://cloud.githubusercontent.com/assets/179496/12719981/24c0bc4c-c8ad-11e5-8d1f-14003109895e.png;';
 
   for(var i in prop.airport.airports) airports.push(i);
 
@@ -132,9 +131,6 @@ function ui_complete() {
       break;
     case 'expert':
       difficulty = icon.repeat(5);
-      break;
-    case 'scene':
-      difficulty = icon1;
       break;
     default:
       difficulty = '?';
