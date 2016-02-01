@@ -67,8 +67,7 @@
     "SASSU":   ["N38.367867", "W122.390483"]
   },
   
-  
-    "restricted": [
+  "restricted": [
       {
         "name": "UUP-63, 52", 
         "height": "Infinity",
@@ -157,9 +156,6 @@
         ]
       }
   ],
-  
-  
-  
   
   
   "runways":[
