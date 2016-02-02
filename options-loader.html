@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
 <html xmlns='http://www.w3.org/1999/xhtml'>
 <head>
@@ -87,7 +88,7 @@ ul li {
 }
 .wrapper .row label {
     float:left;
-    width:350px;
+    width:250px;
     font:bold 1em/16px Arial;
 }
 .wrapper .row .switch {
@@ -131,11 +132,15 @@ ul li {
     <hr />
     <p>This is a pure image based toggle switch built by <a href='https://twitter.com/jamiebicknell'>@jamiebicknell</a>. This could be used for ATC UI options and some game options.</p>
     <hr />
-<div class="row">
-<div class="switch">
-<div class="overlay">&nbsp;</div>
-<input checked="checked" class="toggleswitch" id="opt1" name="opt1" type="checkbox" value="1" /></div>
-<label for="opt1"><img alt="Dark Radar" src="https://cloud.githubusercontent.com/assets/179496/12759570/cae3f0a0-c996-11e5-8c48-db058b1a469d.jpg" style="width: 97px; height: 15px; float: left;" /></label>&nbsp;</div>    <div class='row'>
+    <div class='row'>
+        <div class='switch'>
+            <div class='overlay'></div>
+            <span class='switched'></span>
+            <input type='checkbox' name='opt1' id='opt1' value='1' class='toggleswitch' checked='checked' />
+        </div>
+        <label for='opt1'>&nbsp;&nbsp;Dark Radar</label>&nbsp;
+    </div>
+    <div class='row'>
         <div class='switch'>
             <div class='overlay'></div>
             <span class='switched off'></span>
