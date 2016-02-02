@@ -1,5 +1,6 @@
 {
   "name": "Test scenario - unplayable at the moment",
+  "name": "Airspace closed for police activity",
   "level": "hard",
   "radio": "San Franscisco",
   "icao": "M002",
@@ -70,7 +71,7 @@
   "restricted": [
       {
         "name": "UUP-53", 
-        "height": "8100m",
+        "height": "914m",
         "coordinates": [
 ["N37.7427187", "W122.5086128"],
 ["N37.7426586", "W122.5057339"],
