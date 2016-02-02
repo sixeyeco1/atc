@@ -16,9 +16,9 @@ Twitter:    @jamiebicknell
     position:absolute;
     top:0;
     left:0;
-    width:37px;
-    height:16px;
-    background:url('https://cloud.githubusercontent.com/assets/179496/12762391/c7c74ff4-c9a3-11e5-9648-646bac1882bd.png') no-repeat 0 0;
+    width:48px;
+    height:50px;
+    background:url('https://cloud.githubusercontent.com/assets/179496/12762798/d989c1fc-c9a5-11e5-9e80-ba5dd2b0f2bb.png') no-repeat 0 0;
     z-index:9;
 }
 .switch span.switched {
@@ -26,8 +26,8 @@ Twitter:    @jamiebicknell
     position:absolute;
     top:0;
     left:0;
-    width:58px;
-    height:16px;
+    width:93px;
+    height:50px;
     background:#d9d9d9 url('https://cloud.githubusercontent.com/assets/179496/12762390/c7c70440-c9a3-11e5-9187-dfe17e4d8559.jpg') no-repeat 0 0;
     z-index:8;
 }
