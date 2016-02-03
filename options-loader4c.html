@@ -10,8 +10,30 @@
         $("#slider").slider();
     });
 </script>
+<script>
+    function tab_click(tab){
+        console.log(tab);
+        return true;
+    }
+    function tab_change(tab){
+        console.log(tab);
+    }
+</script>
 </head>
 <body>
+<div class="tabcontrol">
+    <ul class="tabs">
+        <li><a href="#frame_id">Caption</a></li>
+        ...
+        <li><a href="#frame_id">Caption</a></li>
+    </ul>
+    <div class="frames">
+        <div class="frame" id="frame_id">1</div>
+        ...
+        <div class="frame" id="frame_id">4</div>
+    </div>
+</div>    
+    
         <div class="example" data-text="AIRPORT TRAFFIC LOAD">
             <div class="grid">
                <div class="row cells9">
