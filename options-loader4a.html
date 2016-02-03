@@ -12,36 +12,16 @@
 </script>
 </head>
 <body>
-
         <div class="example" data-text="example">
             <div class="grid">
                 <div class="row cells4">
                     <div class="cell">
-                        <h5>Default</h5>
-                        <div class="slider" data-role="slider"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>With hint</h5>
-                        <div class="slider" data-role="slider" data-show-hint="true" data-position="35"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>Customize</h5>
-                        <div class="slider" data-role="slider" data-complete-color="ribbed-green" data-marker-color="bg-cyan" data-color="bg-lightRed"></div>
+                        <h5>Accuracy mode</h5>
+                        <div class="slider" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-show-hint="true"></div>
                     </div>
                     <div class="cell">
                         <h5>Accuracy mode</h5>
                         <div class="slider" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-show-hint="true"></div>
-                    </div>
-                </div>
-                <h3>Large size</h3>
-                <div class="row cells4">
-                    <div class="cell">
-                        <h5>Default</h5>
-                        <div class="slider large" data-role="slider"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>min(max)Value</h5>
-                        <div class="slider large" data-on-change="showSliderChange" data-role="slider" data-show-hint="true" data-position="35" data-permanent-hint="true" data-hint-position="bottom" data-max-value="1000" data-min-value="-300"></div>
                         <script>
                             function showSliderChange(value, slider){
                                 console.log(value);
@@ -49,36 +29,16 @@
                         </script>
                     </div>
                     <div class="cell">
-                        <h5>Customize</h5>
-                        <div class="slider large" data-role="slider" data-complete-color="ribbed-green" data-marker-color="bg-yellow" data-color="ribbed-red"></div>
+                        <h5>Accuracy mode</h5>
+                        <div class="slider" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-show-hint="true"></div>
                     </div>
                     <div class="cell">
                         <h5>Accuracy mode</h5>
-                        <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-show-hint="true"></div>
+                        <div class="slider" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-show-hint="true"></div>
                     </div>
                 </div>
-                <div class="row cells4">
-                    <div class="cell">
-                        <h5>Vertical</h5>
-                        <div class="slider" data-role="slider" data-vertical="true"></div>
-                        <div class="slider" data-role="slider" data-vertical="true" data-position="30"></div>
-                        <div class="slider" data-role="slider" data-vertical="true" data-colors="red, yellow, green"></div>
-                        <div class="slider" data-role="slider" data-vertical="true" data-position="75" data-show-hint="true"></div>
-                        <div class="slider large" data-role="slider" data-vertical="true" data-position="75" data-show-hint="true" data-permanent-hint="true"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>Vertical With hint</h5>
-                        <div class="slider" data-role="slider" data-show-hint="true" data-vertical="true"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>Vertical Customize</h5>
-                        <div class="slider" data-role="slider" data-complete-color="ribbed-red" data-marker-color="blue" data-vertical="true"></div>
-                    </div>
-                    <div class="cell">
-                        <h5>Accuracy mode</h5>
-                        <div class="slider" data-accuracy="10" data-role="slider" data-complete-color="ribbed-red" data-vertical="true" data-show-hint="true"></div>
-                    </div>
-                </div>
+            </div>
+        </div>
 <script>
     function dropValueToInput(value, slider){
         $("#slider_input").val(value);
