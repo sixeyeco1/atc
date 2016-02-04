@@ -1,0 +1,111 @@
+<html>
+    <link href="http://metroui.org.ua/css/metro.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/metro-icons.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/metro-responsive.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/metro-schemes.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/docs.css" rel="stylesheet">
+
+    <script src="http://metroui.org.ua/js/jquery-2.1.3.min.js"></script>
+    <script src="http://metroui.org.ua/js/metro.js"></script>
+    <script src="http://metroui.org.ua/js/docs.js"></script>
+    <script src="http://metroui.org.ua/js/prettify/run_prettify.js"></script>
+    <script src="http://metroui.org.ua/js/ga.js"></script>
+    <script>
+    $(function(){
+        $("#slider").slider();
+    });
+    </script>
+</head>
+<body>
+<div class="container page-content">
+<div class="grid responsive">
+<div class="row cells2">
+<div class="cell">
+<h5>Traffic Settings for [human readable ICAO here]</h5>
+<br>Use the sliders below to adjust the traffic for this airport. 
+</p>
+<br>
+<div class="tabcontrol2" data-role="tabcontrol">
+<ul class="tabs">
+<li><a href="#frame_5_1">Global Settings</a></li>
+<li><a href="#frame_5_2">Radial Specific </a></li>
+</ul>
+<div class="frames">
+    <div class="frame" id="frame_5_1">
+        <div class="example" data-text="GLOBAL SETTINGS">
+            <div class="grid">
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Departures (all destinations)</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Arrivals (all entry fixes)</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                        <p class="text-secondary">
+                        <br>Normal traffic load is 40% but beginners might want to start lower. 
+                        Challenge yourself with higher settings as your skill develops. 
+                        Use the "radial specific" for greater control over arrivals based on the entry fix.
+                        </p>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="frame" id="frame_5_2">
+        <div class="example" data-text="RADIAL SPECIFIC">
+            <div class="grid">
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Departures (all destinations)</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Radial 60</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Radial 90</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Radial 145</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                    <h5>Radial 315</h5>
+                    <div class="slider large" data-accuracy="10" data-role="slider" data-complete-color="ribbed-green" data-marker-color="blue" data-show-hint="true" data-permanent-hint="true" data-hint-position="bottom" ></div>
+                    </div>
+                </div>    
+                <div class="row cells1">
+                    <div class="cell">
+                        <p class="text-secondary">
+                        <br>In this tab you can set the traffic load for each entry fix.
+                            Normal traffic load is 40% but beginners might want to start lower. 
+                            Challenge yourself with higher settings as your skill develops. 
+                        </p>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
