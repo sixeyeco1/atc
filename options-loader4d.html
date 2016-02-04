@@ -151,25 +151,6 @@
   <input type="checkbox" id="read_more" role="button">
   <label for="read_more" onclick=""><span>Show more settings</span><span>Close</span></label>
   <section>
-        <div class="grid">
-            <div class="row cells2">
-                <div class="cell">
-                    <h5>ALL DEPARTURES</h5>
-                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
-                </div>
-                <div class="cell">
-                    <h5>ALL ARRIVALS</h5>
-                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
-                </div>
-            </div>
-        </div>
-<script>
-    function dropValueToInput(value, slider){
-        $("#slider_input").val(value);
-    }
-</script>
-  </section>
-  <section>
         <div class="row cells4">
             <div class="grid">
                 <div class="cell">
@@ -195,5 +176,32 @@
         $("#slider_input").val(value);
     }
 </script>
-  </section>
+</section>
+<section>
+        <div class="row cells4">
+            <div class="grid">
+                <div class="cell">
+                    <h5>Radial 60</h5>
+                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
+                </div>
+                <div class="cell">
+                    <h5>Radial 90</h5>
+                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
+                </div>
+                <div class="cell">
+                    <h5>Radial 145</h5>
+                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
+                </div>
+                <div class="cell">
+                    <h5>Radial 315</h5>
+                    <div class="slider large" data-role="slider" data-complete-color="ribbed-red" data-marker-color="bg-yellow" data-color="ribbed-green" data-show-hint="true" data-accuracy="10"></div>
+                </div>
+            </div>
+        </div>
+<script>
+    function dropValueToInput(value, slider){
+        $("#slider_input").val(value);
+    }
+</script>
+</section>
 </article>
