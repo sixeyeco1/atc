@@ -14,6 +14,16 @@
     <script src="http://metroui.org.ua/js/docs.js"></script>
     <script src="http://metroui.org.ua/js/prettify/run_prettify.js"></script>
     <script src="http://metroui.org.ua/js/ga.js"></script>
+    <script>
+        function showCharm(id){
+            var  charm = $("#"+id+"-charm").data("charm");
+            if (charm.element.data("opened") === true) {
+                charm.close();
+            } else {
+                charm.open();
+            }
+        }
+    </script>
 </head>
 <div class="panel" data-role="panel">
 <div class="grid">
@@ -49,4 +59,19 @@
   </div>
 </div>
 </div>
+
+
+<div data-role="charm" data-position="top" id="top-charm"><h1 class="text-light">Top charm</h1></div>
+<div data-role="charm" data-position="bottom" id="bottom-charm"><h1 class="text-light">Bottom charm</h1></div>
+<div data-role="charm" data-position="left" id="left-charm"><h1 class="text-light">Left charm</h1></div>
+<div data-role="charm" data-position="right" id="right-charm"><h1 class="text-light">Right charm</h1></div>
+    <div class="example" data-text="example">
+    <div class="padding20 align-center">
+        <button class="button" onclick="showCharm('left')">Left side</button>
+        <button class="button" onclick="showCharm('right')">Right side</button>
+        <button class="button" onclick="showCharm('top')">Top side</button>
+        <button class="button" onclick="showCharm('bottom')">Bottom side</button>
+    </div>
+</div>
+
 <button class="button" data-role="popover" data-popover-mode="click" data-popover-position="right" data-popover-text="To ensure these scripts worked I kept all file references intact. I'm certain the code could be trimmed to the minimum necessary to meet our needs." data-popover-background="bg-cyan" data-popover-color="fg-white">My notes</button>
