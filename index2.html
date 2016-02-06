@@ -14,20 +14,6 @@
     <meta content="Play as an air traffic controller and make sure all planes depart and arrive safely." property="og:description"/>
   </head>
   <body>
-  <button onclick="showDialog('#dialog9')">Difficulty</button>
-<div data-role="dialog" id="dialog">
-    <h1>Simple dialog</h1>
-    <p>
-        Dialog :: Metro UI CSS - The front-end framework
-        for developing projects on the web in Windows Metro Style.
-    </p>
-</div>
-<script>
-    function showDialog(id){
-        var dialog = $(id).data('dialog');
-        dialog.open();
-    }
-</script>
     <div id="airport"></div>
     <div id="canvases">
     </div>
@@ -95,5 +81,21 @@
       ga('send', 'pageview');
 
     </script>
+  <button onclick="showDialog('#dialog9')">Difficulty</button>
+<div data-role="dialog" id="dialog9" class="padding20 dialog" data-close-button="true" data-overlay="true" data-overlay-color="op-dark" data-overlay-click-close="true" style="width: auto; height: auto; visibility: hidden; left: 555.5px; top: 289.5px;">
+            <h1>Simple dialog</h1>
+            <p>
+                This dialog with colored overlay
+            </p>
+        <span class="dialog-close-button"></span></div>
+<script>
+    function showDialog(id){
+        var dialog = $(id).data('dialog');
+        dialog.open();
+    }
+</script>
+    
+    
+    
   </body>
 </html>
