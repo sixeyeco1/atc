@@ -162,10 +162,11 @@ function input_parse() {
       aircraft.html.addClass("active");
     }
   }
-/*  Commented out to try Tedrek's code from #369
+/*  Commented out to try Tedrek's code from #369. Created an issue, unable to issue commands. 
     if(number == 1) {
      $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));  */
      
+/*  Commenting out all references to scroll so I can play my top/down spawn order.      
     if ((number == 1) &&
         ((match.html.offset().top < 0) ||
          ((match.html.offset().top
@@ -176,7 +177,8 @@ function input_parse() {
       sidebar.scrollTop(sidebar.scrollTop()
                         + match.html.offset().top
                         - (sidebar.height() / 2));
-    }
+    }             */
+    
 }
 function input_keydown(e) {
   switch(e.which) {
