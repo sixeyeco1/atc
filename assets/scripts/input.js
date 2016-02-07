@@ -176,7 +176,7 @@ function input_parse() {
       sidebar.scrollTop(sidebar.scrollTop()
                         + match.html.offset().top
                         - (sidebar.height() / 2));
-  }
+    }
 }
 function input_keydown(e) {
   switch(e.which) {
