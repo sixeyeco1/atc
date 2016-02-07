@@ -162,11 +162,15 @@ function input_parse() {
       aircraft.html.addClass("active");
     }
   }
-/*  Commented out to try Tedrek's code from #369. Created an issue, unable to issue commands. 
+/*  Commented out original code to try Tedrek's code from #369 
+    but it created an issue; unable to issue commands. 
     if(number == 1) {
      $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));  */
      
-/*  Commenting out all references to scroll so I can play my top/down spawn order.      
+/*  Commenting out Tedrek's new code as well as all references
+    to scroll so I can play my top/down spawn order. I'd really
+    just like it keep focus on the selected strip and that's it.
+    
     if ((number == 1) &&
         ((match.html.offset().top < 0) ||
          ((match.html.offset().top
@@ -178,7 +182,14 @@ function input_parse() {
                         + match.html.offset().top
                         - (sidebar.height() / 2));
     }             */
-    
+
+    if ((number == 1) &&
+        ((match.html.offset().top < 0) ||
+         ((match.html.offset().top
+           + match.html.height()
+           - sidebar.offset().top)
+          > sidebar.height())))
+    {
 }
 function input_keydown(e) {
   switch(e.which) {
