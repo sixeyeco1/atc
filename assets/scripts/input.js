@@ -162,9 +162,10 @@ function input_parse() {
       aircraft.html.addClass("active");
     }
   }
-//  Commented out to try Tedrek's code from #369
-//  if(number == 1) {
-//    $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));
+/*  Commented out to try Tedrek's code from #369
+    if(number == 1) {
+     $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));  */
+     
     if ((number == 1) &&
         ((match.html.offset().top < 0) ||
          ((match.html.offset().top
