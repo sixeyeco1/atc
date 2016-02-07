@@ -162,11 +162,21 @@ function input_parse() {
       aircraft.html.addClass("active");
     }
   }
-  if(number == 1) {
-    $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));
+//  Commented out to try Tedrek's code from #369
+//  if(number == 1) {
+//    $("#sidebar").scrollTop(round(match.html.position().top + ($(window).height() / 3)));
+    if ((number == 1) &&
+        ((match.html.offset().top < 0) ||
+         ((match.html.offset().top
+           + match.html.height()
+           - sidebar.offset().top)
+          > sidebar.height())))
+    {
+      sidebar.scrollTop(sidebar.scrollTop()
+                        + match.html.offset().top
+                        - (sidebar.height() / 2));
   }
 }
-
 function input_keydown(e) {
   switch(e.which) {
     case 13:  // enter
