@@ -1,8 +1,10 @@
 
+
+
 .strip {
   background-color: rgba(255, 255, 255, 0.0);
-
   border-left: 4px solid transparent;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
   list-style-type: none;
   position: relative;
@@ -64,12 +66,13 @@
 
 .strip .aircraft {
   display: block;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: italic;
 }
 
 .strip .heading {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
-
   position: absolute;
   padding-right: 5px;
   left: 50%;
@@ -79,26 +82,31 @@
 
 .strip .runway {
   color: #8cf;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: italic;
 }
 
 .strip .hold {
   color: #f76;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: italic;
 }
 
 .strip .taxi {
-color: #f8e; 
+  color: #f8e; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .strip .waiting {
   color: #7f6;  
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   background-color: rgba(00, 57, 00, 1.0);
 
 }
 
 .strip .altitude {
   text-align: right;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
   position: absolute;
   right: 10px;
@@ -107,6 +115,7 @@ color: #f8e;
 .strip .destination {
   text-align: center;
   color: #8cf;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
   position: absolute;
   padding-right: 5px;
@@ -118,6 +127,7 @@ color: #f8e;
 
 .strip .speed {
   text-align: right;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
   position: absolute;
   right: 10px;
