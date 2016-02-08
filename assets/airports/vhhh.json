@@ -108,7 +108,7 @@
   "restricted": [
       {
         "name": "VHD5", 
-        "height": "1219.2m",
+        "height": "Infinity",
         "coordinates": [
 ["N22d29m54.00", "E113d54m6.00"],
 ["N22d24m01.66", "E113d56m35.63"],
