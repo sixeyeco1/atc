@@ -250,8 +250,7 @@
         ]
       }
   ],
-
-    "runways":[
+      "runways":[
     {
       "name": ["07L", "25R"],
       "name_offset": [[0, 0], [0, 0]],
