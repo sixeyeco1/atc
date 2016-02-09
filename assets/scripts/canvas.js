@@ -643,15 +643,13 @@ function canvas_draw_info(cc, aircraft) {
     cc.translate(bar_width / 2, 0);
 
     if (!aircraft.inside_ctr)
-      cc.fillStyle = "rgba(0, 0, 0, .5)";
+      cc.fillStyle = "rgba(71, 105, 88, 0.3)";
     else if (match)
-      cc.fillStyle = "rgba(16, 16, 16, 1)";
-    else if (match)
-      object.style.zIndex="1000";
+      cc.fillStyle = "rgba(120, 150, 140, 0.9)";
     else if(almost_match)
-      cc.fillStyle = "rgba(51, 255, 204, 1)";
+      cc.fillStyle = "rgba(95, 95, 88, 0.9)";
     else
-      cc.fillStyle = "rgba(255, 51, 102, 1)";
+      cc.fillStyle = "rgba(71, 105, 88, 0.9)";
 
     //Background fill and clip for ILS Lock Indicator
     if (ILS_enabled)
