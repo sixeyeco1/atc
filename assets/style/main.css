@@ -26,7 +26,9 @@ html,body {
 
 html {
   background-color: #000;
-  font-family: monoOne, monospace;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+/*  font-family: monoOne, monospace; */
+  
 }
 
 #airport {
