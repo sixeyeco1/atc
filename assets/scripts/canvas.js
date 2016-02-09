@@ -647,9 +647,9 @@ function canvas_draw_info(cc, aircraft) {
     else if (match)
       cc.fillStyle = "rgba(0, 0, 0, 1)";
     else if(almost_match)
-      cc.fillStyle = "rgba(0, 0, 0, 1)";
+      cc.fillStyle = "rgba(51, 255, 204, 1)";
     else
-      cc.fillStyle = "rgba(0, 0, 0, 1)";
+      cc.fillStyle = "rgba(255, 51, 102, 1)";
 
     //Background fill and clip for ILS Lock Indicator
     if (ILS_enabled)
