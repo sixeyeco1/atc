@@ -643,9 +643,9 @@ function canvas_draw_info(cc, aircraft) {
     cc.translate(bar_width / 2, 0);
 
     if (!aircraft.inside_ctr)
-      cc.fillStyle = "rgba(0, 0, 0, 1)";
-    else if (match)
       cc.fillStyle = "rgba(0, 0, 0, .5)";
+    else if (match)
+      cc.fillStyle = "rgba(0, 0, 0, 1)";
     else if(almost_match)
       cc.fillStyle = "rgba(0, 0, 0, 1)";
     else
