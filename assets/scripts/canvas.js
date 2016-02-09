@@ -647,7 +647,7 @@ function canvas_draw_info(cc, aircraft) {
     else if (match)
       cc.fillStyle = "rgba(16, 16, 16, 1)";
     else if (match)
-      cc.fillStyle.zIndex="1000";
+      object.style.zIndex="1000";
     else if(almost_match)
       cc.fillStyle = "rgba(51, 255, 204, 1)";
     else
